@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(250, 246, 241);
+}
+nav, footer{
+    background-color: rgb(30, 94, 14);
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+h3{
+    color: rgb(0, 0, 0);
+}
+a{
+    text-decoration: none;
+}
+div{
+    border: 2px;
+    padding: 20px;
+}
+img{
+    padding: 20px;
+}
+a{
+    color: antiquewhite;
+    padding: 10px;
+}
+#col_red{
+    color: red;
+    position: relative;
+    left: 30px;
+    right: 30px;
+    border: 2px solid blue;
+    padding: 40px;
+    width: 170px;
+    text-align: center;
+
+}
