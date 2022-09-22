@@ -6,9 +6,17 @@
     box-sizing: border-box;
 }
 
-/*header{
-    background-image: url(imagenes/banner.jpg);
-}*/
+.head{
+    background-image: url("../imagenes/banner3.jpg");
+
+            background-repeat: no-repeat;
+            background-position: center center; 
+            background-size: center;
+ 
+            border-bottom: 3px solid black;
+            background-color: rgb(39, 153, 10);
+            overflow: auto;
+}
 .footer {
     background-color: rgb(39, 153, 10);
 }
@@ -71,8 +79,12 @@ div {
     padding: 20px;
 }
 
-img {
+#cir {
     padding: 20px;
+    width: 100%;
+    height: auto;
+    
+   /* max-width: 360px;*/
 }
 
 /*a{
@@ -97,10 +109,7 @@ img {
     height: auto;
     overflow: auto
 }
-img{
-    width: 100%;
-    height: auto;
-  }
+
 @media only screen and (min-width: 600px) {
 
     /* For tablets: */
@@ -209,12 +218,10 @@ div.signal{
 
 }
 #palito1{
-    max-width: 400px;
-    min-width: 250px;
+    width: 150px;
 }
 #palito2{
-    max-width: 400px;
-    min-width: 250px;
+    width: 200px;
 }
 #palito3{
     max-width: 600px;
