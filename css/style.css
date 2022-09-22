@@ -9,7 +9,7 @@
 /*header{
     background-image: url(imagenes/banner.jpg);
 }*/
-footer {
+.footer {
     background-color: rgb(39, 153, 10);
 }
 
@@ -79,15 +79,16 @@ img {
     color: antiquewhite;
     padding: 10px;
 }*/
-#col_red {
-    color: red;
+#box_front {
+    color: black;
     position: relative;
     left: 30px;
     right: 30px;
-    border: 2px solid blue;
+    border: 2px solid rgb(39, 153, 10);
     padding: 40px;
-    width: 170px;
+    width: 300px;
     text-align: center;
+    box-shadow: 00 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 
 }
 .menu{
@@ -96,6 +97,10 @@ img {
     height: auto;
     overflow: auto
 }
+img{
+    width: 100%;
+    height: auto;
+  }
 @media only screen and (min-width: 600px) {
 
     /* For tablets: */
@@ -199,8 +204,51 @@ img {
         width: 100%;
     }
 }
-@media screen and (min-width: 700px) {
-    div.menu {
-      display: contents;
+div.signal{
+    max-width: 300px;
+
+}
+#palito1{
+    max-width: 400px;
+    min-width: 250px;
+}
+#palito2{
+    max-width: 400px;
+    min-width: 250px;
+}
+#palito3{
+    max-width: 600px;
+    min-width: 400px;
+}
+#lateral1{
+    min-width: 30%;
+}
+
+@media only screen and (max-width: 1000px) {
+    #palito1 {
+      display: none;
     }
+  }
+  @media only screen and (max-width: 768px) {
+    #palito2 {
+      display: none;
+    }
+  }
+  @media only screen and (min-width: 999px) {
+    #palito2 {
+      display: none;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    #palito3 {
+      display: none;
+    }
+  }
+  .barralateral{
+    background-color: rgba(39, 153, 10, 0.751);
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   }
