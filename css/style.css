@@ -17,7 +17,7 @@
             background-repeat: no-repeat;
             background-position: center center; 
             background-size: center;
- 
+        
             border-bottom: 3px solid black;
             background-color: rgb(39, 153, 10);
             overflow: auto;
@@ -139,10 +139,10 @@ a {
     color: rgb(202, 15, 15);
 }
 
-div {
+/* div {
     border: 2px;
     padding: 20px;
-}
+} */
 
 #cir {
     padding: 20px;

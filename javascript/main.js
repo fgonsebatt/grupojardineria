@@ -1,5 +1,5 @@
 document.getElementById("header").innerHTML = `
-<div class="row">
+<div >
     <div class="head">
         <h1>Jardineria</h1>
         <div>
