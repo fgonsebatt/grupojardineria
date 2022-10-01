@@ -1,15 +1,26 @@
+<<<<<<< HEAD
+*{
+=======
 * {
+>>>>>>> 5627292f529f21ace7712a72f453c050e4bc4788
     padding: 0px;
     margin: 0px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
+<<<<<<< HEAD
+
+nav, footer{
+    background-color: rgb(38, 153, 10);
+    padding: 15px;
+=======
 .cuadrito{
     border: 1px solid rgb(39, 153, 10);
     text-align: center;
     padding: 20px;
-    width: 100%;
+    width: 80%;
+>>>>>>> 5627292f529f21ace7712a72f453c050e4bc4788
 }
 .head{
     background-image: url("../imagenes/banner3.jpg");
@@ -42,6 +53,14 @@ h1 {
 a {
     text-decoration: none;
 }
+<<<<<<< HEAD
+.boton{
+    
+    padding: 5px;
+    color: white;
+    background-color:rgba(33, 42, 10, 0.23);
+    border: 1px solid green;
+=======
 
 .row::after {
     content: "";
@@ -62,10 +81,15 @@ a {
 
     background-color: rgba(33, 42, 10, 0.647);
     text-align: center;
+>>>>>>> 5627292f529f21ace7712a72f453c050e4bc4788
     margin-left: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
     width: fit-content;
+<<<<<<< HEAD
+}
+div{
+=======
     min-width: 175px;
 }
 
@@ -80,6 +104,7 @@ a {
 }
 
 div {
+>>>>>>> 5627292f529f21ace7712a72f453c050e4bc4788
     border: 2px;
     padding: 20px;
 }
@@ -108,6 +133,37 @@ div {
     box-shadow: 00 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 
 }
+<<<<<<< HEAD
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+=======
 .menu{
     background-color: rgb(39, 153, 10);
     border: 1px solid black;
@@ -115,7 +171,7 @@ div {
     overflow: auto
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 480px) {
 
     /* For tablets: */
     .col-s-1 {
@@ -166,7 +222,57 @@ div {
         width: 100%;
     }
 }
+@media only screen and (min-width: 600px) {
 
+    /* For desktop: */
+    .col-m-1 {
+        width: 8.33%;
+    }
+
+    .col-m-2 {
+        width: 16.66%;
+    }
+
+    .col-m-3 {
+        width: 25%;
+    }
+
+    .col-m-4 {
+        width: 33.33%;
+    }
+
+    .col-m-5 {
+        width: 41.66%;
+    }
+
+    .col-m-6 {
+        width: 50%;
+    }
+
+    .col-m-7 {
+        width: 58.33%;
+    }
+
+    .col-m-8 {
+        width: 66.66%;
+    }
+
+    .col-m-9 {
+        width: 75%;
+    }
+
+    .col-m-10 {
+        width: 83.33%;
+    }
+
+    .col-m-11 {
+        width: 91.66%;
+    }
+
+    .col-m-12 {
+        width: 100%;
+    }
+}
 @media only screen and (min-width: 768px) {
 
     /* For desktop: */
@@ -219,18 +325,18 @@ div {
     }
 }
 signal{
-    max-width: 300px;
+    max-width: 100px;
 
 }
 #palito1{
-    width: 150px;
+    max-width: 150px;
 }
 #palito2{
-    width: 200px;
+    max-width: 150px;
 }
 #palito3{
     max-width: 600px;
-    min-width: 400px;
+
 }
 #lateral1{
     min-width: 30%;
@@ -263,4 +369,5 @@ signal{
     text-align: center;
     font-size: 14px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+>>>>>>> 5627292f529f21ace7712a72f453c050e4bc4788
   }
