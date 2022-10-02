@@ -1,16 +1,30 @@
 document.getElementById("header").innerHTML = `
 <div >
-    <div class="head">
-        <h1>Jardineria</h1>
-        <div>
-            <div class="col-2 col-s-5 boton"><a href="index.html">Home</a></div>
-            <div class="col-2 col-s-5 boton"><a href="armarjardin.html">Tips Para Jardines</a></div>
-            <div class="col-2 col-s-5 boton"><a href="tienda.html">Tienda</a></div>
-            <div class="col-2 col-s-5 boton"><a href="contacto.html">Contacto</a></div>
-            <div class="col-2 col-s-5 boton"><a href="sobrenosotros.html">Sobre Nosotros</a></div>
+            <div class="head">
+                <h1>Jardineria</h1>
+                <div id="menu-big">
+                    <div class="col-2 col-s-5 boton"><a href="index.html">Home</a></div>
+                    <div class="col-2 col-s-5 boton"><a href="armarjardin.html">Tips Para Jardines</a></div>
+                    <div class="col-2 col-s-5 boton"><a href="tienda.html">Tienda</a></div>
+                    <div class="col-2 col-s-5 boton"><a href="contacto.html">Contacto</a></div>
+                    <div class="col-2 col-s-5 boton"><a href="sobrenosotros.html">Sobre Nosotros</a></div>
+                </div>
+            </div>    
+                <div class="dropdown" id="menu-drop">
+                    <button class="dropbtn" ><img src="./imagenes/tree2.jpg" width="100px" alt="tree2"></button>
+                    <div class="dropdown-content">
+                        <div class="menugrid">
+                            <div class="item1"><a href="index.html">Home</a></div>
+                            <div class="item2"><a href="armarjardin.html">Tips Para Jardines</a></div>
+                            <div class="item3"><a href="tienda.html">Tienda</a></div>
+                            <div class="item4"><a href="contacto.html">Contacto</a></div>
+                            <div class="item5"><a href="sobrenosotros.html">Sobre Nosotros</a></div>
+                            <div class="item6"><img src="./imagenes/root2.jpg" height="200px" alt="root"></div> 
+                    </div>
+                    </div>
+                  </div>
+            
         </div>
-    </div>
-</div>
 
 `
 document.getElementById("footer").innerHTML = `

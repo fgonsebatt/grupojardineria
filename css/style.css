@@ -5,60 +5,68 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
-.cuadrito{
+
+.cuadrito {
     border: 1px solid rgb(39, 153, 10);
     text-align: center;
     padding: 20px;
     width: 80%;
 }
-.head{
+
+.head {
     background-image: url("../imagenes/banner3.jpg");
 
-            background-repeat: no-repeat;
-            background-position: center center; 
-            background-size: center;
-        
-            border-bottom: 3px solid black;
-            background-color: rgb(39, 153, 10);
-            overflow: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: center;
+
+    border-bottom: 3px solid black;
+    background-color: rgb(39, 153, 10);
+    overflow: auto;
 
 }
+
 .footer {
     background-color: rgb(39, 153, 10);
 }
-.tarjeta{
+
+.tarjeta {
     width: 100%;
     max-width: 250px;
     border: 1px solid rgb(172, 172, 172);
     border-radius: 5px;
-    box-shadow: 00 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    box-shadow: 00 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     font-family: Arial, Helvetica, sans-serif;
     padding: 0.5px;
 }
-.tarjtex{
-        padding-left: 5px;
+
+.tarjtex {
+    padding-left: 5px;
 }
-.tarjeta>img{
+
+.tarjeta>img {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     max-width: 100%;
     height: auto;
 }
 
-.boton2{
-    
+.boton2 {
+
     padding: 5px;
     color: white;
-    background-color:rgb(39, 153, 10);
+    background-color: rgb(39, 153, 10);
     border: 1px solid rgb(39, 153, 10);
     margin-left: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
     width: fit-content;
 }
-.boton2 a{
+
+.boton2 a {
     color: white;
 }
+
 .boton2>a {
     color: rgb(255, 255, 255);
 }
@@ -68,16 +76,18 @@
     text-decoration: underline;
     color: rgb(202, 15, 15);
 }
-.flex-container{
+
+.flex-container {
     display: flex;
     flex-direction: row;
     background-color: white;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-  
-  
+
+
 }
+
 .flex-container>div {
     background-color: #f1f1f1;
     min-width: 200px;
@@ -86,6 +96,7 @@
     /*padding-left: 5px;*/
 
 }
+
 /*.head>a:hover{
     background-color: rgba(33, 42, 10, 0.193);
     text-decoration: underline;  
@@ -113,9 +124,11 @@ a {
     float: left;
     padding: 15px;
 }
+
 [class*="col-"] {
     width: 100%;
 }
+
 .boton {
 
     padding: 10px;
@@ -148,8 +161,8 @@ a {
     padding: 20px;
     width: 100%;
     height: auto;
-    
-   /* max-width: 360px;*/
+
+    /* max-width: 360px;*/
 }
 
 /*a{
@@ -165,10 +178,11 @@ a {
     padding: 40px;
     width: 300px;
     text-align: center;
-    box-shadow: 00 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    box-shadow: 00 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 
 }
-.menu{
+
+.menu {
     background-color: rgb(39, 153, 10);
     border: 1px solid black;
     height: auto;
@@ -226,6 +240,7 @@ a {
         width: 100%;
     }
 }
+
 @media only screen and (min-width: 600px) {
 
     /* For desktop: */
@@ -277,6 +292,7 @@ a {
         width: 100%;
     }
 }
+
 @media only screen and (min-width: 768px) {
 
     /* For desktop: */
@@ -328,49 +344,131 @@ a {
         width: 100%;
     }
 }
-signal{
+
+signal {
     max-width: 100px;
 
 }
-#palito1{
+
+#palito1 {
     max-width: 150px;
 }
-#palito2{
+
+#palito2 {
     max-width: 150px;
 }
-#palito3{
+
+#palito3 {
     max-width: 600px;
 
 }
-#lateral1{
+
+#lateral1 {
     min-width: 30%;
 }
 
 @media only screen and (max-width: 1000px) {
     #palito1 {
-      display: none;
+        display: none;
     }
-  }
-  @media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 768px) {
     #palito2 {
-      display: none;
+        display: none;
     }
-  }
-  @media only screen and (min-width: 999px) {
+}
+
+@media only screen and (min-width: 999px) {
     #palito2 {
-      display: none;
+        display: none;
     }
-  }
-  @media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 768px) {
     #palito3 {
-      display: none;
+        display: none;
     }
-  }
-  .barralateral{
+}
+@media only screen and (max-width: 600px) {
+    #menu-big {
+        display: none;
+    }
+}
+@media only screen and (min-width: 600px) {
+    #menu-drop {
+        display: none;
+    }
+}
+
+.barralateral {
     background-color: rgba(39, 153, 10, 0.751);
     padding: 15px;
     color: #ffffff;
     text-align: center;
     font-size: 14px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  }
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.dropbtn {
+    background-color: rgb(39, 153, 10);
+    color: white;
+    
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+ 
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    padding-left: 20px;
+    /* background-color: rgba(39, 153, 10, 0.751); */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.menugrid{
+    display: grid;
+    grid: 
+    'm6 m1'
+    'm6 m2'
+    'm6 m3'
+    'm6 m4'
+    'm6 m5';
+}
+.item1 { grid-area: m1; }
+.item2 { grid-area: m2; }
+.item3 { grid-area: m3; }
+.item4 { grid-area: m4; }
+.item5 { grid-area: m5; }
+.item6{
+    grid-area: m6;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
