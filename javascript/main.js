@@ -11,7 +11,7 @@ document.getElementById("header").innerHTML = `
                 </div>
             </div>    
                 <div class="dropdown" id="menu-drop">
-                    <button class="dropbtn" ><img src="./imagenes/tree2.jpg" width="100px" alt="tree2"></button>
+                    <button class="dropbtn" ><img src="./imagenes/tree3.jpg" width="100px" alt="tree2"></button>
                     <div class="dropdown-content">
                         <div class="menugrid">
                             <div class="item1"><a href="index.html">Home</a></div>
