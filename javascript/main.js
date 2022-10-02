@@ -33,7 +33,7 @@ document.getElementById("footer").innerHTML = `
 
         <a target="_blank" href="https://wa.me/+5491136383241?text=Hello,%20please%20send%20me%20info"> <img
                 width="25px" src="./imagenes/whatsapp.png" alt="whatsapp"> </a>
-        <a target="_blank" href="mailto:codoviajes@turismo.com"><img width="25px"
+        <a target="_blank" href="mailto:codojardines@plantas.com"><img width="25px"
                 src="./imagenes/correo-electronico.png" alt="Mail"></a>
         <a target="_blank" href="https://www.instagram.com/"><img width="25px" src="./imagenes/instagram.png"
                 alt="Instagram"></a>
