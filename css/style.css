@@ -21,7 +21,7 @@
     background-color: rgba(39, 153, 10, 0.751);
     padding: 15px;
     color: #ffffff;
-    text-align: justify;
+    text-align: justify;    
     font-size: 14px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
  
@@ -139,13 +139,24 @@
     background-color: rgba(33, 42, 10, 0.193);
     text-decoration: underline;  
 }*/
-h1 {
+#jar1 {
     font-size: 40px;
     text-align: center;
     color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 20px;
     /*background-color:rgba(33, 42, 10, 0.579)*/
+}
+#jar2{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(39, 153, 10);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    /*background-color:rgba(33, 42, 10, 0.579)*/
+}
+.head-s{
+    border-top: 3px solid black;
 }
 h3{
     padding-left: 10px;
@@ -270,6 +281,7 @@ a {
     .col-s-12 {
         width: 100%;
     }
+
 }
 
 @media only screen and (min-width: 600px) {
@@ -429,6 +441,7 @@ signal {
 @media only screen and (min-width: 600px) {
     #menu-drop {
         display: none;
+        
     }
 }
 @media only screen and (max-width: 600px) {
@@ -472,12 +485,13 @@ signal {
     position: relative;
     padding-left: 20px;
     /* background-color: rgba(39, 153, 10, 0.751); */
-    min-width: 160px;
+    min-width: 300px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 .menugrid{
     display: grid;
+    
     grid: 
     'm6 m1'
     'm6 m2'
