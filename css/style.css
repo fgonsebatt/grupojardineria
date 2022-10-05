@@ -52,14 +52,14 @@
     border-bottom-color: rgb(255, 255, 255);
   }
 .head {
-    background-image: url("../imagenes/banner3.jpg");
+    /* background-image: url("../imagenes/banner3.jpg"); */
 
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     background-position: center center;
-    background-size: center;
+    background-size: center; */
 
     border-bottom: 3px solid black;
-    background-color: rgb(39, 153, 10);
+    background-color: rgb(255, 255, 255);
     overflow: auto;
 
 }
@@ -142,7 +142,7 @@
 #jar1 {
     font-size: 40px;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(39, 153, 10);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 20px;
     /*background-color:rgba(33, 42, 10, 0.579)*/
@@ -170,11 +170,11 @@ a {
     content: "";
     clear: both;
     display: table;
-}
+  }
 
 [class*="col-"] {
     float: left;
-    padding: 15px;
+    padding: 10px;
 }
 
 [class*="col-"] {
@@ -185,7 +185,7 @@ a {
 
     padding: 10px;
 
-    background-color: rgba(33, 42, 10, 0.647);
+    background-color: rgba(39, 153, 10, 0.751);
     text-align: center;
     margin-left: 10px;
     margin-bottom: 10px;
@@ -193,7 +193,12 @@ a {
     width: fit-content;
     min-width: 175px;
 }
-
+.menugrid-bg {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 .boton>a {
     color: rgb(255, 255, 255);
 }
@@ -201,7 +206,7 @@ a {
 .boton:hover {
     background-color: rgb(39, 153, 10);
     text-decoration: underline;
-    color: rgb(202, 15, 15);
+ 
 }
 
 #cir {
@@ -388,47 +393,56 @@ a {
     }
 }
 
-signal {
+.signal {
     max-width: 100px;
-
+    width: 100%;
+    padding: 0px !important;
 }
+.signal2 {
+    
+    padding: 15px;
+}
+.signal2 > img {
+    max-width: 100%;
+    height: auto;
 
+  }
+  .borde{
+    border: 1px solid black;
+  }
 #palito1 {
-    max-width: 150px;
+    max-width: 110px;
 }
 
 #palito2 {
     max-width: 150px;
 }
 
-#palito3 {
-    max-width: 600px;
 
-}
 
 #lateral1 {
     min-width: 30%;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
     #palito1 {
         display: none;
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 680px) {
     #palito2 {
         display: none;
     }
 }
 
-@media only screen and (min-width: 999px) {
+@media only screen and (min-width: 899px) {
     #palito2 {
         display: none;
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 680px) {
     #palito3 {
         display: none;
     }
