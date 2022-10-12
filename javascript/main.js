@@ -3,7 +3,7 @@ document.getElementById("header").innerHTML = `
             <div class="head" id="menu-big">
                 <h1 id="jar1">Jardineria</h1>
                 <div class="menugrid-bg">
-                    <div class="col-2 col-s-5 boton"><a href="index.html">Home</a></div>
+                    <div class="col-2 col-s-5 boton"><a href="index.html">Inicio</a></div>
                     <div class="col-2 col-s-5 boton"><a href="armarjardin.html">Tips Para Jardines</a></div>
                     <div class="col-2 col-s-5 boton"><a href="tienda.html">Tienda</a></div>
                     <div class="col-2 col-s-5 boton"><a href="contacto.html">Contacto</a></div>
@@ -15,7 +15,7 @@ document.getElementById("header").innerHTML = `
                     <button class="dropbtn"><img src="./imagenes/tree3.jpg" width="100px" alt="tree2"></button>
                     <div class="dropdown-content">
                         <div class="menugrid">
-                            <div class="item1"><a href="index.html">Home</a></div>
+                            <div class="item1"><a href="index.html">Inicio</a></div>
                             <div class="item2"><a href="armarjardin.html">Tips Para Jardines</a></div>
                             <div class="item3"><a href="tienda.html">Tienda</a></div>
                             <div class="item4"><a href="contacto.html">Contacto</a></div>

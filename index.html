@@ -20,7 +20,7 @@
             <div class="head" id="menu-big">
                 <h1 id="jar1">Jardineria</h1>
                 <div class="menugrid-bg">
-                    <div class="col-2 col-s-5 boton"><a href="index.html">Home</a></div>
+                    <div class="col-2 col-s-5 boton"><a href="index.html">Inicio</a></div>
                     <div class="col-2 col-s-5 boton"><a href="armarjardin.html">Tips Para Jardines</a></div>
                     <div class="col-2 col-s-5 boton"><a href="tienda.html">Tienda</a></div>
                     <div class="col-2 col-s-5 boton"><a href="contacto.html">Contacto</a></div>
@@ -55,65 +55,62 @@
     <main>
         <div class="row">
             <br><br><br>
-            <div class="col-7 col-m-8 col-s-12 ">
-                <h3>Esta es una pagina de Jardineria</h3>
+            <div class="slideshow-container">
 
-                <br>
-
-                <div id="carouseltips" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="carousel-tarjeta1">
-                        <img src="./imagenes/fondo.jpg" alt="Ciruelo">
-                        <div class="tarjtex">
-                            <h2>Ciruelo de Jardin</h2>
-                            <p>Hermoso arbolito</p>
-                            <div class="boton2">
-                                <a href="armarjardin.html">Consejos</a>
-                            </div>
-                        </div>
-                      </div>     
-                      <div class="carousel-tarjeta2">
-                        <img src="./imagenes/fondo.jpg" alt="Ciruelo">
-                        <div class="tarjtex">
-                            <h2>Ciruelo de Jardin</h2>
-                            <p>Hermoso arbolito</p>
-                            <div class="boton2">
-                                <a href="armarjardin.html">Consejos</a>
-                            </div>
-                        </div>   
-                      </div>
-                      <div class="carousel-tarjeta3">
-                        <img src="./imagenes/fondo.jpg" alt="Ciruelo">
-                        <div class="tarjtex">
-                            <h2>Ciruelo de Jardin</h2>
-                            <p>Hermoso arbolito</p>
-                            <div class="boton2">
-                                <a href="armarjardin.html">Consejos</a>
-                            </div>
-                      </div>
-                      </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouseltips" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <a href="./armarjardin.html">
+                        <div class="numbertext">1 / 3</div>
+                        <img src="./imagenes/compost.jpg" style="width:100%">
+                        <div class="text">EL PORQUE Y EL COMO DEL COMPOST</div>
                     </a>
-                    <a class="carousel-control-next" href="#carouseltips" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
+                  
+                </div>
+              
+                <div class="mySlides fade">
+                    <a href="./armarjardin.html">
+                        <div class="numbertext">2 / 3</div>
+                        <img src="./imagenes/poda-árboles.jpg" style="width:100%">
+                        <div class="text">PODAS A LO LARGO DEL AÑO</div>
                     </a>
-                  </div> 
+                </div>
+              
+                <div class="mySlides fade">
+                    <a href="./armarjardin.html">
+                        <div class="numbertext">3 / 3</div>
+                        <img src="./imagenes/siembra.jpg" style="width:100%">
+                        <div class="text">LA IMPORTANCIA DEL SUSTRATO</div>
+                    </a>
+                </div>
+              
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+              <br>
+              
+              <!-- The dots/circles -->
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+              </div>
+              <script src="./javascript/slider.js"></script>
+            </div>
+            
+                    
             <div class="col-3 col-m-4 col-s-12 " id="lateral1">
                 <div class="barralateral">
-                    <h2>Pagina de Jardineria</h2>
+                    <h2>¿Quienes somos?</h2>
                     <br>
-                    <p>Super interesante, no?.</p>
+                    <p>Somos un grupo de estudiantes de la Facultad de Agronomia con ganas de compartir consejos simples y herramientas utiles para todo aquel que quiera adentrarse en su propio mini mundo de la jardinería.</p>
                     <br><br>
-                    <h2>Y que contiene?</h2>
-                    <p>Alguna informacion, la cual no tenemos todavia.</p>
+                    <h2>¿Qué podes encontar en nuestra página?</h2>
+                    <p>Consejos e información para guiarte, además de objetos en nuestra tienda para hacerte llegar de manera facil todos los insumos que necesitas.</p>
                     <br><br>
-                    <h2>No me parece</h2>
+                    <h2>¡Hablanos!</h2>
                     <br>
-                    <p>A mi tampoco, pero no se que poner y la compañera que quizo hacer esto se fue.</p>
+                    <p> Queremos que antes cualquier duda o consulta te contactes con nosotros. ¡No te quedes con la inquietud!</p>
                 </div>
                 <br>
                 <div class="signal">
@@ -131,7 +128,10 @@
             </div>
         </div>
         <br>
+
+       
     </main>
+    <!--<script src="./javascript/slider.js"></script> -->
 
     <div class="footer col-12 col-m-12 col-s-12" id="footer">
 
