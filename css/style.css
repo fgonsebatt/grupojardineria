@@ -10,7 +10,7 @@
     border: 1px solid rgb(39, 153, 10);
     text-align: center;
     padding: 20px;
-    width: 80%;
+    width: 100%;
 }
 .paginas{
     padding: 20px;
@@ -231,7 +231,7 @@ a {
     overflow: auto
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 600px) {
 
     /* For tablets: */
     .col-s-1 {
@@ -403,7 +403,7 @@ signal {
 
 #palito3 {
     max-width: 600px;
-
+    min-width: 400px;
 }
 
 #lateral1 {
