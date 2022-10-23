@@ -24,13 +24,16 @@
                     <h3>CONTACTO</h3>
                 </div>
                 <div class="col-6">
-                <form action="show-data.html" target="_blank">
+                <form action="show-data.html" target="_blank" id="formulario">
                     
                     <input placeholder="NOMBRE" required class="relleno" type="text" name="nombre" id="nombre">
+                    <span class="error relleno" id="errornom"></span>
                     <br><br>
                     <input placeholder="APELLIDO" required class="relleno" type="text" name="apellido" id="apellido">
+                    <span class="error relleno" id="errorapell"></span>
                     <br><br>
-                    <input placeholder="EMAIL" required class="relleno" type="email" name="email" id=email">
+                    <input placeholder="EMAIL" required class="relleno" type="mail" name="mail" id="mail">
+                    <span class="error relleno" id="errormail"></span>
                     <br><br>
                     <label for="tiposjardinero">Que tipo de jardinero sos?</label>
                     <br>
@@ -46,7 +49,7 @@
                     <input type="checkbox" name="preferencias" id="3" >Productos
                     <input type="checkbox" name="preferencias" id="4" >Otros
                     <br><br>
-                    <textarea placeholder="COMENTARIOS" class="relleno" name="comment" id="comment" cols="30" rows="2"></textarea>
+                    <textarea placeholder="COMENTARIOS" required class="relleno" name="comment" id="comment" cols="30" rows="2"></textarea>
                     
                     
                     <br><br>
@@ -72,6 +75,7 @@
     <div class="footer col-12 col-s-12" id="footer"></div>
 
     <script src="./javascript/main.js"></script>
+    <script src="./javascript/form.js"></script>
 </body>
 
 </html>

@@ -34,31 +34,6 @@
     max-width: 100%;
 }
 
-.relleno {
-    /* background-color: rgba(255, 255, 255, 0.205);
-    border: rgb(39, 153, 10);
-    border-radius: 2px;
-    padding: 5px; */
-    width: 100%;
-    padding: 10px 0;
-    background: none;
-    border: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.649);
-    color: rgb(255, 255, 255);
-    font-size: 14px;
-    text-transform: uppercase;
-    outline: none;
-    transition: border-color .2s;
-}
-
-.relleno::placeholder {
-    color: rgba(255, 255, 255, 0.605);
-}
-
-.relleno:focus {
-    border-bottom-color: rgb(255, 255, 255);
-}
-
 .head {
     /* background-image: url("../imagenes/banner3.jpg"); */
 
@@ -785,3 +760,61 @@ a {
 
 }
 
+input.invalido {
+    border-color: red;
+    background-color: #fdd;
+    width: 100%; 
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid red;
+    color: red;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+    transition: border-color .2s;
+  }
+  
+  input:focus.invalido {
+    outline: none;
+  }
+  
+  /* This is the style of our error messages */
+  .error {
+    width: 100%;
+    padding: 0;
+  
+    font-size: 80%;
+    color: white;
+    background-color: #900;
+    border-radius: 0 0 5px 5px;
+    box-sizing: border-box;
+  }
+  
+  .error.activo {
+    padding: 0.3em;
+  }
+  .relleno, input.valido { 
+    /* background-color: rgba(255, 255, 255, 0.205);
+    border: rgb(39, 153, 10);
+    border-radius: 2px;
+    padding: 5px; */
+    width: 100%; 
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.649);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+    transition: border-color .2s;
+}
+
+.relleno, input.valido::placeholder {
+    color: rgba(255, 255, 255, 0.605);
+}
+
+.relleno:focus {
+    border-bottom-color: rgb(255, 255, 255);
+}
