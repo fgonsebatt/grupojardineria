@@ -48,6 +48,7 @@
 
 .footer {
     background-color: rgb(39, 153, 10);
+    position: fixed bottom;
 }
 
 .tarjeta {
@@ -146,6 +147,7 @@
 
 h3 {
     padding-left: 10px;
+    text-align: left;
 }
 
 a {
@@ -856,4 +858,9 @@ input.invalido {
 .zoom:hover {
     transform: scale(1.2);
     background-color: #3e8e41;
+
+  }
+.zoom:hover #textitext {
+    display: none;
+    
   }

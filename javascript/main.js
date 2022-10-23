@@ -42,7 +42,8 @@ document.getElementById("header").innerHTML = `
         </div> 
 `
 document.getElementById("footer").innerHTML = `
-<a target="_blank" href="https://www.facebook.com/"><img width="25px" src="./imagenes/facebook.png"
+
+        <a target="_blank" href="https://www.facebook.com/"><img width="25px" src="./imagenes/facebook.png"
                 alt="Facebook"></a>
         <a target="_blank" href="https://wa.me/+5491112345678?text=Hello,%20please%20send%20me%20info"> <img
                 width="25px" src="./imagenes/whatsapp.png" alt="whatsapp"> </a>
@@ -53,70 +54,7 @@ document.getElementById("footer").innerHTML = `
         <p>Pagina creada para el TP </p>
 `
 
-app = new Vue({
-    el: "#app",
-    data: {
-        productos: [
-            {
-                codigo: "1",
-                nombre: "Dimorphoteca",
-                imagen: "./imagenes/Plantadeexterior. Dimorphoteca.jpg",
-                precio: "400",
-                descripción: "",
-            },
-            {
-                codigo: "2",
-                nombre: "Aphelandra squarrosa",
-                imagen: "imagenes/Plantadeinterior APHELANDRA SQUARROSA.jpg",
-                precio: "500",
-                descripción: "",
-            },
-            {
-                codigo: "3",
-                nombre: "Clotonpreta",
-                imagen: "imagenes/Plantadeinterior.clotonpreta.jpg",
-                precio: "600",
-                descripción: "",
-            },
-            {
-                codigo: "4",
-                nombre: "Cretona",
-                imagen: "imagenes/Plantadeinterior.cretona.jpg",
-                precio: "1200",
-                descripción: "",
-            },
-            {
-                codigo: "5",
-                nombre: "Estrella Federal",
-                imagen: "imagenes/Plantadeinterior.estrellafederal.jpg",
-                precio: "2500",
-                descripción: "",
-            },
-            {
-                codigo: "6",
-                nombre: "Monstera deliciosa",
-                imagen: "imagenes/Plantadeinterior.Monsteradeliciosa.jpg",
-                precio: "600",
-                descripción: "",
-            },
-            {
-                codigo: "7",
-                nombre: "Rhoeodiscolor",
-                imagen: "imagenes/Plantadeinterior.Rhoeodiscolor.jpg",
-                precio: "600",
-                descripción: "",
-            },
-            {
-                codigo: "8",
-                nombre: "Aspidrista",
-                imagen: "imagenes/Plantainterior.aspidrista.jpg",
-                precio: "200",
-                descripción: "",
-            }
 
-        ]
-    }
-})
 
 function ocultar() {
     document.getElementById('obj1').style.display = 'none';
@@ -136,3 +74,33 @@ function ocultar() {
 function mostrar() {
     document.getElementById('obj3').style.display = 'block';
 }
+
+let url = "./json/plantas.json"
+let datos = [];
+fetch(url)
+    .then(response => response.json())
+    .then(data => {  
+        console.log(data)
+        datos = data.productos
+        console.log(datos)  
+        let cad = `<div id="app" class="flex-container col-11 col-m-11 col-s-12 ">`
+
+        for (producto of datos) {
+            cad += `
+            <div class="tarjeta zoom" v-for="producto in productos">
+            <img class="card-img-top" : src="${producto.imagen}" alt="${producto.nombre}" style="width:100%">
+            <div class="card-body">
+                <h4 class="card-title">${producto.nombre}</h4>
+                <p class="card-text">Precio &#36;${producto.precio}</p>
+                <p class="card-text"  id="textitext">${producto.descripcion}</p>
+                <!--  <a href="#" class="btn btn-primary">Ver Producto</a>-->
+            </div>
+        </div>   
+    `
+        }
+        cad += `</div>
+        `
+        console.log(cad)
+        document.getElementById("itemstienda").innerHTML = cad;
+    }
+    );
