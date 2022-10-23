@@ -766,12 +766,15 @@ a {
     float: right;
     display: flex;
     position: relative;
-    size-adjust: 50%;
-    font-size: 10px;
+    size-adjust: 100%;
+    font-size: 15px;
     text-align: left;
     color: #f1f1f1;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
 
 }
 
@@ -782,6 +785,18 @@ a {
 
 .tip {
     vertical-align: bottom;
+    display: none;
 
 }
 
+.h2{
+    font-size: 10px;
+    text-align: left;
+    color: #f1f1f1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 6px;
+    padding-right: 4px;
+    padding-bottom: 3px;
+    padding-left: 4px;
+
+}
