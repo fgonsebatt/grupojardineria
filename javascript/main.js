@@ -66,7 +66,7 @@ app = new Vue({
             },
             {
                 codigo: "2",
-                nombre: "APHELANDRA SQUARROSA",
+                nombre: "Aphelandra squarrosa",
                 imagen: "imagenes/Plantadeinterior APHELANDRA SQUARROSA.jpg",
                 precio: "500",
                 descripción: "",
@@ -117,3 +117,22 @@ app = new Vue({
         ]
     }
 })
+
+function ocultar() {
+    document.getElementById('obj1').style.display = 'none';
+}
+function mostrar() {
+    document.getElementById('obj1').style.display = 'block';
+}
+function ocultar() {
+    document.getElementById('obj2').style.display = 'none';
+}
+function mostrar() {
+    document.getElementById('obj2').style.display = 'block';
+}
+function ocultar() {
+    document.getElementById('obj3').style.display = 'none';
+}
+function mostrar() {
+    document.getElementById('obj3').style.display = 'block';
+}
