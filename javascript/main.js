@@ -42,3 +42,68 @@ document.getElementById("footer").innerHTML = `
                 alt="Instagram"></a>
         <p>Pagina creada para el TP </p>
 `
+
+app = new Vue({
+    el: "#app",
+    data: {
+        productos: [
+            {
+                codigo: "1",
+                nombre: "Dimorphoteca",
+                imagen: "./imagenes/Plantadeexterior. Dimorphoteca.jpg",
+                precio: "400",
+                descripción: "",
+            },
+            {
+                codigo: "2",
+                nombre: "APHELANDRA SQUARROSA",
+                imagen: "imagenes/Plantadeinterior APHELANDRA SQUARROSA.jpg",
+                precio: "500",
+                descripción: "",
+            },
+            {
+                codigo: "3",
+                nombre: "Clotonpreta",
+                imagen: "imagenes/Plantadeinterior.clotonpreta.jpg",
+                precio: "600",
+                descripción: "",
+            },
+            {
+                codigo: "4",
+                nombre: "Cretona",
+                imagen: "imagenes/Plantadeinterior.cretona.jpg",
+                precio: "1200",
+                descripción: "",
+            },
+            {
+                codigo: "5",
+                nombre: "Estrella Federal",
+                imagen: "imagenes/Plantadeinterior.estrellafederal.jpg",
+                precio: "2500",
+                descripción: "",
+            },
+            {
+                codigo: "6",
+                nombre: "Monstera deliciosa",
+                imagen: "imagenes/Plantadeinterior.Monsteradeliciosa.jpg",
+                precio: "600",
+                descripción: "",
+            },
+            {
+                codigo: "7",
+                nombre: "Rhoeodiscolor",
+                imagen: "imagenes/Plantadeinterior.Rhoeodiscolor.jpg",
+                precio: "600",
+                descripción: "",
+            },
+            {
+                codigo: "8",
+                nombre: "Aspidrista",
+                imagen: "imagenes/Plantainterior.aspidrista.jpg",
+                precio: "200",
+                descripción: "",
+            }
+
+        ]
+    }
+})

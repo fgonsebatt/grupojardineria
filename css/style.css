@@ -639,3 +639,36 @@ a {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+.cardholder{
+    padding: 3%;
+    
+}
+
+.card {
+    flex: 1 1 auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    padding-top: 1.25rem;
+    padding-right: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-left: 1.25rem;
+    max-width: 25%;
+    float: left;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1pxsolidrgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
