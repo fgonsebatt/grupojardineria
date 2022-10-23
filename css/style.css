@@ -52,12 +52,13 @@
 
 .tarjeta {
     width: 100%;
-    max-width: 250px;
+    max-width: 200px;
     border: 1px solid rgb(172, 172, 172);
     border-radius: 5px;
     box-shadow: 00 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     font-family: Arial, Helvetica, sans-serif;
     padding: 0.5px;
+    background-color: rgba(255, 254, 254, 0.089);
 }
 
 .tarjtex {
@@ -100,7 +101,7 @@
 .flex-container {
     display: flex;
     flex-direction: row;
-    background-color: white;
+    /* background-color: white; */
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -109,7 +110,7 @@
 }
 
 .flex-container>div {
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
     min-width: 200px;
     /*height: 600px;*/
     margin: 5px;
@@ -848,3 +849,11 @@ input.invalido {
 .relleno:focus {
     border-bottom-color: rgb(255, 255, 255);
 }
+.zoom {
+    transition: transform .2s; 
+  }
+  
+.zoom:hover {
+    transform: scale(1.2);
+    background-color: #3e8e41;
+  }
