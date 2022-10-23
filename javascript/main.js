@@ -66,7 +66,7 @@ app = new Vue({
             },
             {
                 codigo: "2",
-                nombre: "APHELANDRA SQUARROSA",
+                nombre: "Aphelandra squarrosa",
                 imagen: "imagenes/Plantadeinterior APHELANDRA SQUARROSA.jpg",
                 precio: "500",
                 descripción: "",
